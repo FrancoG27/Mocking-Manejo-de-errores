@@ -25,7 +25,7 @@ app.use(express.json());
   app.use(
     session({
       store: MongoStore.create({
-        mongoUrl:  `mongodb+srv://lucas00gomez:jhVWUong4BKakOhh@clustercoderhouseecomme.itfiapq.mongodb.net/?retryWrites=true&w=majority`,
+        mongoUrl:  `mongodb+srv://yofranco654:FrancoGuty45@cluster0.ohpo7un.mongodb.net/?retryWrites=true&w=majority`,
          ttl: 180,
       }),
       resave: true,
